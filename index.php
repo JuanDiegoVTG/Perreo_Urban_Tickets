@@ -44,6 +44,12 @@ $localidades = [
             <?php endforeach; ?>
         </div>
 
+        <div style="background: linear-gradient(to right, #7928ca, #ff007f); padding: 1.5rem; border-radius: 12px; text-align: center; margin-bottom: 2rem; border: 1px solid #00f0ff;">
+            <h3 style="margin: 0 0 0.5rem 0; color: #fff;">¿Quieres un descuento exclusivo? 🤑</h3>
+            <p style="margin: 0 0 1rem 0; font-size: 0.9rem; color: #eee;">Prueba nuestro minijuego de agilidad mental y desbloquea beneficios para tu entrada.</p>
+            <a href="juego.php" style="background-color: #00f0ff; color: #000; padding: 0.6rem 1.5rem; font-weight: bold; text-decoration: none; border-radius: 6px; text-transform: uppercase; font-size: 0.85rem; display: inline-block;">¡Jugar Desafío VIP! 🎮</a>
+        </div>
+
         <section class="formulario-seccion">
             <h2>Simula tu Compra de Boletas</h2>
             <form action="logica.php" method="POST">
